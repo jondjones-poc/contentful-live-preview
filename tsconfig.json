@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next",
+      },
+    ],
+    "paths": {
+      "@/*": ["./*"],
+    },
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/post-graph-page/[slug]/page.js", "lib/contentful/restSdk.js", "app/page.js", "components/blog.js", "components/contentful-preview-provider.js", "app/layout.js", "app/api/enable-draft-blogpost/route.js", "app/api/enable-draft-blogpost/route.js", "lib/contentful/graphqlSdk.js", "app/api/revalidate/route.js", "app/api/disable-draft/route.js"],
+  "exclude": ["node_modules"],
+}
